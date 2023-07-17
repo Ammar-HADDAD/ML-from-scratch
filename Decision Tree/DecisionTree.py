@@ -20,7 +20,7 @@ class Node:
         
 
 
-class DesicionTree:
+class DecisionTree:
     def __init__(self,min_samples_split=2,max_depth = 100,n_features_to_use = None):
         self.root = None
 
