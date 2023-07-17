@@ -90,7 +90,7 @@ class DecisionTree:
         if node.leaf_node():
             return node.label
 
-        if x[node.s_feature] <= node.s_value:
+        if x[node.s_feature] < node.s_value:
             return self.findPath(x, node.left)
         return self.findPath(x, node.right)
 
