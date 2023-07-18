@@ -7,7 +7,6 @@ class Node:
         self.threshold = threshold
         self.values = values
 
-
     def leaf(self):
         return self.values is not None
     def label(self):
