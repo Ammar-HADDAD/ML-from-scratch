@@ -21,7 +21,7 @@ class Node:
 
 
 class DecisionTree:
-    def __init__(self,min_samples_split=2,max_depth = 100,n_features_to_use = None):
+    def __init__(self,max_depth=100, min_samples=4,n_features=None):
         self.root = None
 
         self.mss = min_samples_split
