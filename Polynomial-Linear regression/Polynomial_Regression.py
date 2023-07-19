@@ -46,3 +46,4 @@ class Polynomial_Regressor:
     # Method to predict output values for new input data using the fitted model
     def predict(self, X):
         return self.combiner(X).dot(self.args)  # Use the fitted coefficients to predict new values
+        
