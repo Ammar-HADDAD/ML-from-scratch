@@ -1,6 +1,7 @@
 import numpy as np
 from DecisionTree import DecisionTree # Make sure to import it correctly
 
+
 # Defining the RandomForest class
 class RandomForest:
     def __init__(self, max_depth=10, number_of_features_to_use=None, min_samples_split=2, number_of_trees=10):
