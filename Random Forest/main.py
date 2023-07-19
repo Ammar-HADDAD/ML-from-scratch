@@ -4,7 +4,6 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 from RandomForest import RandomForest 
 
-
 data = datasets.load_breast_cancer()
 X, y = data.data, data.target
 
