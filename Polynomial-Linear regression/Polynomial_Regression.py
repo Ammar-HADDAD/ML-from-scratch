@@ -11,7 +11,6 @@ class Polynomial_Regressor:
         
         # Create an array to store the error function values during training
         self.error_func = np.zeros(self.n_iter)
-
     # Method to fit the polynomial regression model to the given data
     def fit(self, X, y):
         # X should be a single-column array, reshape it to a 2D column vector
